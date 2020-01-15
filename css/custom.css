@@ -1,0 +1,29 @@
+#background {
+    text-decoration: bold;
+}
+
+#goToTop {
+    background-image: url("../img/Atlanta.gif");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:100%;
+    height:400px;
+}
+
+#goToTop:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.hero {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    padding-top: 50px;
+}

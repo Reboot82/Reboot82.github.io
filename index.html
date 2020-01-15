@@ -8,31 +8,47 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="icon" href="img/icon.png" type="image/icon">
 
   <title>Welcome to my Portfolio!</title>
 </head>
 
 <body>
   <div class="container">
-    <div class="hero">
-      <nav>
-        <img src="img/icon.png" class="img-fluid" width="100">
-        <ul>
-          <li><a href="#goToX">Experience</a></li>
-          <li><a href="#goToS">Skills</a></li>
-          <li><a href="#goToP">Portfolio</a></li>
-      </ul>
+    <div class="hero" id="goToTop">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a href="#goToTop"><img src="img/icon.png" class="img-fluid" width="100"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+          <span class="navbar-toggler-icon">
+
+          </span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="navbar-nav text-center ml-auto">
+            <li><a href="#goToX" class="nav-link">Experience</a></li>
+            <li><a href="#goToS" class="nav-link">Skills</a></li>
+            <li><a href="#goToP" class="nav-link">Portfolio</a></li>
+          </ul>
+        </div>
       </nav>
-      <h1>
-        Brandt Campbell
-      </h1>
-      <h3>
-        Full Stack Developer
-      </h3>
+      <div class="container" id="background">
+        <h1 class="text-center hero">
+          [Brandt Campbell]
+        </h1>
+        <h3 class="text-center hero">
+          Full Stack Developer
+        </h3>
+        <p class="text-center hero">
+          <a href="https://github.com/Reboot82" target="_blank">
+            <img src="img/GitHub-dark.png" class="img-fluid" width="60">
+          </a>
+        </p>
+      </div>
     </div>
   </div>
   <div class="container">
-    <div class="experience">
+    <div class="experience" id="goToX">
       <h2>Front End Focused with Full Stack Experience</h2>
       <h6>Motivated to Produce Results</h6>
       <p>As a late bloomer of the software developer community, I continuously push myslef to keep learning in order to
@@ -48,13 +64,13 @@
 
   </div>
   <div class="container">
-    <div class="skills">
+    <div class="skills" id="goToS">
       <h2>Skills</h2>
       <h6>Front End</h6>
       <p>HTML5<br>CSS3<br>JavaScript<br>React</p>
       <h6></h6>
     </div>
-    <div class="portfolio">
+    <div class="portfolio" id="goToP">
 
     </div>
   </div>
