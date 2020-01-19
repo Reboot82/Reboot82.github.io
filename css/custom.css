@@ -59,6 +59,8 @@ h5 {
     position: fixed;
     background-color: white;
     border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 #e1 {
@@ -79,6 +81,10 @@ h5 {
     display: block;
     font-size: 3em;
     float: right;
+}
+
+.logo:hover {
+    transform: scale(1.5);
 }
 
 .column {
@@ -109,4 +115,12 @@ h5 {
 .column2 {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.border {
+    border: 100px #000;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
