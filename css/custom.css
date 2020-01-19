@@ -126,3 +126,7 @@ p {
 .footer-link {
     padding: 10px;
 }
+
+.container {
+    padding-bottom: 30px;
+}
