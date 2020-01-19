@@ -3,6 +3,10 @@
     color: rgb(0, 0, 0);
 }
 
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
 #goToTop {
     background-image: url("../img/ATL.gif");
     background-repeat: no-repeat;
@@ -29,6 +33,17 @@
 
 h1 {
     padding-top: 100px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+h3 {
+    font-family: 'Cabin', sans-serif;
 }
 
 .skills {
@@ -47,4 +62,31 @@ h1 {
 
 #e2 {
     text-decoration: underline;
+}
+
+.logos {
+    height: 40px;
+    display: block;
+}
+
+.logo {
+    height: 60px;
+    display: block;
+    font-size: 3em;
+    float: right;
+}
+
+.column {
+    float: center;
+    width: 70%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo-column {
+    width: 5em;
 }
