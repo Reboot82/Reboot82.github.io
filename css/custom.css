@@ -40,14 +40,19 @@ h1 {
 
 h2 {
     font-family: 'Carrois Gothic SC', sans-serif;
+    padding-bottom: 20px;
 }
 
 h3 {
     font-family: 'Cabin', sans-serif;
 }
 
+h5 {
+    text-decoration: underline;
+}
+
 .skills {
-    height: 100vh;
+    height: auto;
 }
 
 .navbar {
@@ -78,7 +83,13 @@ h3 {
 
 .column {
     float: center;
-    width: 70%;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
 }
 
 .row:after {
@@ -89,4 +100,13 @@ h3 {
 
 .logo-column {
     width: 5em;
+}
+
+.experience {
+    margin-top: 20px;
+}
+
+.column2 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
