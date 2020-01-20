@@ -27,6 +27,18 @@ body {
     color: rgb(0, 0, 0);
 } */
 
+#goToX {
+    padding-top: 64px;
+}
+
+#goToS {
+    padding-top: 64px;
+}
+
+#goToP {
+    padding-top: 64px;
+}
+
 .hero {
     color: rgb(0, 0, 0);
 }
@@ -128,5 +140,5 @@ p {
 }
 
 .container {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
