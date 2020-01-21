@@ -1,3 +1,14 @@
+@media(min-width: 1000px) {
+    #goToTop {
+        background-color: teal;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+
+
 #background {
     text-decoration: bold;
     color: rgb(0, 0, 0);
@@ -142,3 +153,14 @@ p {
 .container {
     padding-bottom: 0px;
 }
+
+/* Font Family Options:
+
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Barlow', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Cabin', sans-serif;
+font-family: 'Carrois Gothic SC', sans-serif;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Sigmar One', cursive; */
