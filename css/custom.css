@@ -176,6 +176,9 @@ p {
     .navbar {
         height: 60px;
     }
+    #navbar {
+        background-color: white;
+    }
     .img-fluid {
         height: 50px;
         width: auto;
