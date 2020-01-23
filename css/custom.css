@@ -194,6 +194,12 @@ p {
     }
 }
 
+@media(max-width: 482px) {
+    .logo-column {
+        width: 50px;
+    }
+}
+
 /* Font Family Options:
 
 font-family: 'Alegreya Sans SC', sans-serif;
