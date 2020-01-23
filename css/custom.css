@@ -198,6 +198,10 @@ p {
     .logo-column {
         width: 50px;
     }
+    #goToTop {
+        background-size: contain;
+        background-size: 250%;
+    }
 }
 
 /* Font Family Options:
