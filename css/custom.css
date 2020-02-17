@@ -70,6 +70,10 @@ p {
     font-size: 18px;
 }
 
+li {
+    justify-content: space-between;
+}
+
 .skills {
     height: auto;
 }
@@ -146,6 +150,64 @@ p {
 
 .container {
     padding-bottom: 0px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.cards {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cards li {
+    position: relative;
+    width: 40%;
+    margin: 5%;
+    display: block;
+    box-sizing: border-box;
+    float: left;
+}
+
+.cards li div {
+    width: 100%;
+    padding: 10% 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cards div.back {
+    transform: rotateY(90deg);
+
+}
+
+.cards div.front {
+    position: absolute;
+    
+}
+
+.cards li a {
+    color: black;
+}
+
+.cards li:hover div.front {
+    animation: twirl 0.6s ease-in forwards;
+}
+
+.cards li:hover div.back {
+    animation: twirl 0.6s 0.6s ease-in forwards reverse;
+}
+
+@keyframes twirl {
+    0%{ transform: rotateY(0deg) }
+    100% { transform: rotateY(270deg);}
 }
 
 @media(max-width: 1000px) {

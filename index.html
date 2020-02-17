@@ -30,6 +30,9 @@
         </button>
         <div class="navbar-collapse collapse" id="navbar">
           <ul class="navbar-nav text-center ml-auto">
+            <!-- <li><a href="#experience" class="d-none d-sm-block">Experience</a></li>
+            <li><a href="#experience" class="d-block d-sm-none" data-toggle="collapse"
+                data-target=".navbar-collapse">Experience</a></li> -->
             <li><a href="#goToX" class="nav-link">Experience</a></li>
             <li><a href="#goToS" class="nav-link">Skills</a></li>
             <li><a href="#goToP" class="nav-link">Portfolio</a></li>
@@ -52,7 +55,7 @@
       </div>
     </div>
   </div>
-  <div class="container" id="goToX">
+  <div class="container" id="experience">
     <div class="experience">
       <h2 class="text-center">Front End Focused with Full Stack Experience</h2>
       <div class="row">
@@ -119,36 +122,50 @@
       </div>
     </div>
   </div>
+
   <div class="container">
     <div class="portfolio" id="goToP">
       <h2 class="text-center">Portfolio</h2>
-      <h5>Hangman</h5>
-      <h3>Technologies Used</h3>
-      <p>Languages & Frameworks - HTML5, CSS, JavaScript, jQuery
-        <br>Design - Google Fonts
-        <br>Project Planning - Trello
-        <br>Visual Studio Code</p>
-      <h3>Summary</h3>
-      <p>Once a player comes to the site, they are asked to click New Game to begin playing. The player starts by
-        clicking on a letter from the letter bank. If the letter is in the word, it appears in the correct location at
-        the bottom of the screen. If not, a portion of the hangman appears. They then continue guessing letters until
-        either the player has discovered the word, or the entire hangman is revealed. Once a player wins, their score
-        increases. If they lose, they lose one of their lives. After the player has run out of lives, their final score
-        is shown on screen.</p>
-      <h3>Link</h3>
-      <p><a href="http://brandt-campbell-hangman.netlify.com" target="blank">Project Hangman</a></p>
-      <h5>DiscHeads</h5>
-      <h3>Technologies Used</h3>
-      <p>Languages & Frameworks - HTML, CSS, JavaScript, jQuery, React, Express, Node.js, PostgreSQL
-        <br>Design - Google Fonts
-        <br>Project Planning - Trello
-        <br>Visual Studio Code</p>
-      <h3>Summary</h3>
-      <p>I created a disc golf friend finder app called "DiscHeads". Using this app, players are able to check in
-        and out of courses, as well as view other players currently checked in at any course. They can also add, edit,
-        and delete players, as well as courses, and discs.</p>
-      <h3>Link</h3>
-      <p><a href="https://disc-heads.herokuapp.com/" target="blank">Project DiscHeads</a></p>
+      <div class="wrapper">
+        <ul class="cards">
+          <li>
+            <div class="front" style="background: #4e4e4e">
+              <h5>HANGMAN</h5>
+              <h4>Technologies Used</h4>
+              <p>Languages & Frameworks - HTML5, CSS3, JavaScript, jQuery
+                <br>Design - Google Fonts
+                <br>Project Planning - Trello
+                <br>Visual Studio Code<br><wbr></p>
+            </div>
+            <div class="back" style="background: #7e7e7e">
+              <h4>Summary</h4>
+              <p>Click New Game to begin playing. Start by clicking on a letter from the letter bank. Continue
+                guessing letters until the word is discovered, or the entire hangman is revealed. After the player
+                has run out of lives, their final score is shown on screen.</p>
+              <h3>Link</h3>
+              <p><a href="http://brandt-campbell-hangman.netlify.com" target="blank">Project Hangman</a></p>
+            </div>
+          </li>
+          <li>
+            <div class="front" style="background: #4e4e4e">
+              <h5>DISCHEADS</h5>
+              <h4>Technologies Used</h4>
+              <p>Languages & Frameworks - HTML5, CSS3, JavaScript, jQuery, React, Express, Node.js, PostgreSQL
+                <br>Design - Google Fonts
+                <br>Project Planning - Trello
+                <br>Visual Studio Code</p>
+            </div>
+            <div class="back" style="background: #7e7e7e">
+              <h4>Summary</h4>
+              <p>I created a disc golf friend finder app called "DiscHeads". Using this app, players are able to check
+                in and out of courses, as well as view other players currently checked in at any course. They can also
+                add, edit, and delete players, as well as courses, and discs.</p>
+              <h3>Link</h3>
+              <p><a href="https://disc-heads.herokuapp.com/" target="blank">Project DiscHeads</a></p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="container">
       <div class="personal">
