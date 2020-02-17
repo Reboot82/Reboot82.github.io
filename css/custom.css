@@ -257,6 +257,10 @@ li {
     h5 {
         font-size: 20px;
     }
+    .cards li {
+        width: 100%;
+        margin: 5px 0;
+    }
 }
 
 @media(max-width: 482px) {
@@ -267,6 +271,7 @@ li {
         background-size: contain;
         background-size: 250%;
     }
+    
 }
 
 /* Font Family Options:
