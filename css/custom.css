@@ -74,6 +74,11 @@ li {
     justify-content: space-between;
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .skills {
     height: auto;
 }
@@ -84,6 +89,7 @@ li {
     border-radius: 10px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+    padding-left: 0px;
 }
 
 .logos {
@@ -193,8 +199,9 @@ li {
     
 }
 
-.cards li a {
+.cards li p a {
     color: black;
+    text-decoration: underline;
 }
 
 .cards li:hover div.front {
