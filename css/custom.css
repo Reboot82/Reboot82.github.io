@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Barlow', sans-serif;
+    background-color: rgb(213, 213, 213);
 }
 
 #goToTop {
@@ -85,11 +86,13 @@ a, a:hover, a:focus, a:active {
 
 .navbar {
     position: fixed;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
     padding-left: 0px;
+}
+
+#logo {
+    padding-left: 20px;
 }
 
 .logos {
@@ -176,7 +179,6 @@ a, a:hover, a:focus, a:active {
     display: block;
     box-sizing: border-box;
     float: left;
-    z-index: -50;
 }
 
 .cards li div {
@@ -188,16 +190,17 @@ a, a:hover, a:focus, a:active {
     letter-spacing: 2px;
     cursor: pointer;
     border-radius: 5px;
+    z-index: -50;
 }
 
 .cards div.back {
     transform: rotateY(90deg);
-
+    z-index: -50;
 }
 
 .cards div.front {
     position: absolute;
-    
+    z-index: -50;
 }
 
 .cards li p a {
