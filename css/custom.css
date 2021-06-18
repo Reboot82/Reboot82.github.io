@@ -176,6 +176,7 @@ a, a:hover, a:focus, a:active {
     display: block;
     box-sizing: border-box;
     float: left;
+    z-index: -50;
 }
 
 .cards li div {
