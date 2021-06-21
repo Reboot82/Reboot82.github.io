@@ -129,7 +129,12 @@ a, a:hover, a:focus, a:active {
 }
 
 .logo-column {
+    background-color: white;
     width: 5em;
+    padding-right: 1em;
+    padding-top: 1em;
+    border-radius: 10px;
+    margin-left: 5px;
 }
 
 .experience {
